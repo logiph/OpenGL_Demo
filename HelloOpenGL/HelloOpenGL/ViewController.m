@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "OpenGLView.h"
+
 
 @interface ViewController ()
 
+@property(nonatomic, strong) OpenGLView *glView;
 @end
 
 @implementation ViewController
@@ -17,6 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    self.glView = [[OpenGLView alloc] initWithFrame:screenBounds];
+    
+    [self.view addSubview:self.glView];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
