@@ -17,4 +17,7 @@
 @property(nonatomic, strong) EAGLContext *context;
 @property(nonatomic, assign) GLuint colorRenderBuffer;
 
+@property(nonatomic, assign) GLuint positionSlot;
+@property(nonatomic, assign) GLuint colorSlot;
+
 @end
