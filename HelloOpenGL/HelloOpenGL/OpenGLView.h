@@ -31,4 +31,8 @@
 
 @property(nonatomic, assign) GLuint modelViewUniform;
 
+@property(nonatomic, assign) float currentRotation;
+
+@property(nonatomic, assign) GLuint depthRenderBuffer;
+
 @end
