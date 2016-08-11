@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>3DMath.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>HelloOpenGL.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>28456B231D5B3802008035DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28456B5B1D5B74C9008035DF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -18,7 +18,38 @@
 		28456B441D5B3877008035DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28456B431D5B3877008035DF /* QuartzCore.framework */; };
 		28456B461D5B4A14008035DF /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 28456B451D5B4A14008035DF /* SimpleVertex.glsl */; };
 		28456B481D5B5000008035DF /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 28456B471D5B5000008035DF /* SimpleFragment.glsl */; };
+		28456B5F1D5B74C9008035DF /* _DMath.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28456B5E1D5B74C9008035DF /* _DMath.h */; };
+		28456B611D5B74C9008035DF /* _DMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 28456B601D5B74C9008035DF /* _DMath.m */; };
+		28456B771D5B7526008035DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28456B761D5B7526008035DF /* UIKit.framework */; };
+		28456B791D5B75F3008035DF /* lib3DMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28456B5C1D5B74C9008035DF /* lib3DMath.a */; };
+		28456B851D5B7651008035DF /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28456B7C1D5B7651008035DF /* CC3Foundation.m */; };
+		28456B861D5B7651008035DF /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 28456B7E1D5B7651008035DF /* CC3GLMatrix.m */; };
+		28456B871D5B7651008035DF /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = 28456B7F1D5B7651008035DF /* CC3Kazmath.c */; };
+		28456B881D5B7651008035DF /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 28456B831D5B7651008035DF /* CC3Math.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28456B741D5B74F3008035DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28456B1C1D5B3802008035DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28456B5B1D5B74C9008035DF;
+			remoteInfo = 3DMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28456B5A1D5B74C9008035DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				28456B5F1D5B74C9008035DF /* _DMath.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		28456B241D5B3802008035DF /* HelloOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +68,21 @@
 		28456B431D5B3877008035DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		28456B451D5B4A14008035DF /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
 		28456B471D5B5000008035DF /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		28456B5C1D5B74C9008035DF /* lib3DMath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib3DMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28456B5E1D5B74C9008035DF /* _DMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _DMath.h; sourceTree = "<group>"; };
+		28456B601D5B74C9008035DF /* _DMath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DMath.m; sourceTree = "<group>"; };
+		28456B761D5B7526008035DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28456B781D5B7554008035DF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		28456B7B1D5B7651008035DF /* CC3Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Foundation.h; sourceTree = "<group>"; };
+		28456B7C1D5B7651008035DF /* CC3Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Foundation.m; sourceTree = "<group>"; };
+		28456B7D1D5B7651008035DF /* CC3GLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3GLMatrix.h; sourceTree = "<group>"; };
+		28456B7E1D5B7651008035DF /* CC3GLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3GLMatrix.m; sourceTree = "<group>"; };
+		28456B7F1D5B7651008035DF /* CC3Kazmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CC3Kazmath.c; sourceTree = "<group>"; };
+		28456B801D5B7651008035DF /* CC3Kazmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Kazmath.h; sourceTree = "<group>"; };
+		28456B811D5B7651008035DF /* CC3Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Logging.h; sourceTree = "<group>"; };
+		28456B821D5B7651008035DF /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
+		28456B831D5B7651008035DF /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
+		28456B841D5B7651008035DF /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +90,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28456B791D5B75F3008035DF /* lib3DMath.a in Frameworks */,
 				28456B441D5B3877008035DF /* QuartzCore.framework in Frameworks */,
 				28456B421D5B3870008035DF /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28456B591D5B74C9008035DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28456B771D5B7526008035DF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,9 +110,11 @@
 		28456B1B1D5B3802008035DF = {
 			isa = PBXGroup;
 			children = (
+				28456B761D5B7526008035DF /* UIKit.framework */,
 				28456B431D5B3877008035DF /* QuartzCore.framework */,
 				28456B411D5B3870008035DF /* OpenGLES.framework */,
 				28456B261D5B3802008035DF /* HelloOpenGL */,
+				28456B5D1D5B74C9008035DF /* 3DMath */,
 				28456B251D5B3802008035DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				28456B241D5B3802008035DF /* HelloOpenGL.app */,
+				28456B5C1D5B74C9008035DF /* lib3DMath.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +156,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		28456B5D1D5B74C9008035DF /* 3DMath */ = {
+			isa = PBXGroup;
+			children = (
+				28456B7A1D5B7651008035DF /* Cocos3DMathLib */,
+				28456B5E1D5B74C9008035DF /* _DMath.h */,
+				28456B601D5B74C9008035DF /* _DMath.m */,
+				28456B781D5B7554008035DF /* PrefixHeader.pch */,
+			);
+			path = 3DMath;
+			sourceTree = "<group>";
+		};
+		28456B7A1D5B7651008035DF /* Cocos3DMathLib */ = {
+			isa = PBXGroup;
+			children = (
+				28456B7B1D5B7651008035DF /* CC3Foundation.h */,
+				28456B7C1D5B7651008035DF /* CC3Foundation.m */,
+				28456B7D1D5B7651008035DF /* CC3GLMatrix.h */,
+				28456B7E1D5B7651008035DF /* CC3GLMatrix.m */,
+				28456B7F1D5B7651008035DF /* CC3Kazmath.c */,
+				28456B801D5B7651008035DF /* CC3Kazmath.h */,
+				28456B811D5B7651008035DF /* CC3Logging.h */,
+				28456B821D5B7651008035DF /* CC3Math.h */,
+				28456B831D5B7651008035DF /* CC3Math.m */,
+				28456B841D5B7651008035DF /* ccTypes.h */,
+			);
+			path = Cocos3DMathLib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,11 +198,29 @@
 			buildRules = (
 			);
 			dependencies = (
+				28456B751D5B74F3008035DF /* PBXTargetDependency */,
 			);
 			name = HelloOpenGL;
 			productName = HelloOpenGL;
 			productReference = 28456B241D5B3802008035DF /* HelloOpenGL.app */;
 			productType = "com.apple.product-type.application";
+		};
+		28456B5B1D5B74C9008035DF /* 3DMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28456B621D5B74C9008035DF /* Build configuration list for PBXNativeTarget "3DMath" */;
+			buildPhases = (
+				28456B581D5B74C9008035DF /* Sources */,
+				28456B591D5B74C9008035DF /* Frameworks */,
+				28456B5A1D5B74C9008035DF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DMath;
+			productName = 3DMath;
+			productReference = 28456B5C1D5B74C9008035DF /* lib3DMath.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -128,6 +232,9 @@
 				ORGANIZATIONNAME = logiph;
 				TargetAttributes = {
 					28456B231D5B3802008035DF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					28456B5B1D5B74C9008035DF = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -146,6 +253,7 @@
 			projectRoot = "";
 			targets = (
 				28456B231D5B3802008035DF /* HelloOpenGL */,
+				28456B5B1D5B74C9008035DF /* 3DMath */,
 			);
 		};
 /* End PBXProject section */
@@ -177,7 +285,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28456B581D5B74C9008035DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28456B851D5B7651008035DF /* CC3Foundation.m in Sources */,
+				28456B611D5B74C9008035DF /* _DMath.m in Sources */,
+				28456B871D5B7651008035DF /* CC3Kazmath.c in Sources */,
+				28456B881D5B7651008035DF /* CC3Math.m in Sources */,
+				28456B861D5B7651008035DF /* CC3GLMatrix.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28456B751D5B74F3008035DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28456B5B1D5B74C9008035DF /* 3DMath */;
+			targetProxy = 28456B741D5B74F3008035DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		28456B301D5B3802008035DF /* Main.storyboard */ = {
@@ -285,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/3DMath/Cocos3DMathLib\"";
 				INFOPLIST_FILE = HelloOpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.logiph.HelloOpenGL;
@@ -296,10 +425,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/3DMath/Cocos3DMathLib\"";
 				INFOPLIST_FILE = HelloOpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.logiph.HelloOpenGL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28456B631D5B74C9008035DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = 3DMath/PrefixHeader.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		28456B641D5B74C9008035DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = 3DMath/PrefixHeader.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -320,6 +476,14 @@
 			buildConfigurations = (
 				28456B3C1D5B3802008035DF /* Debug */,
 				28456B3D1D5B3802008035DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28456B621D5B74C9008035DF /* Build configuration list for PBXNativeTarget "3DMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28456B631D5B74C9008035DF /* Debug */,
+				28456B641D5B74C9008035DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
